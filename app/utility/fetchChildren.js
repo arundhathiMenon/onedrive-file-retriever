@@ -1,4 +1,4 @@
-// utils/fetchChildren.js
+
 export const fetchChildren = async (accessToken, sharedFolderUrl) => {
     const encodedUrl = btoa(sharedFolderUrl).replace(/=/g, '').replace(/\//g, '_').replace(/\+/g, '-');
     const apiUrl = `https://graph.microsoft.com/v1.0/shares/u!${encodedUrl}/driveItem/children`;

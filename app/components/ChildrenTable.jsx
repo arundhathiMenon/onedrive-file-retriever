@@ -1,5 +1,4 @@
 "use client";
-// components/ChildrenTable.js
 import { useState, useEffect } from "react";
 import { fetchChildren } from "../utility/fetchChildren";
 
